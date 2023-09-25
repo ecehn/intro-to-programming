@@ -2,13 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,ts}"],
   theme: {
-    extend: {
-      daisyui: { themes: ["cyberpunk", "dark", "dracula"] },
-    },
+    extend: {},
   },
   plugins: [
     require("@tailwindcss/forms"),
     require("@tailwindcss/typography"),
     require("daisyui"),
   ],
+  daisyui: { themes: ["cyberpunk", "dark", "dracula"] },
 };

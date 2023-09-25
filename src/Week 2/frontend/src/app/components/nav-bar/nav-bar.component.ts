@@ -1,10 +1,11 @@
 import { Component } from "@angular/core";
 import { CommonModule } from "@angular/common";
+import { RouterLink, RouterLinkActive } from "@angular/router";
 
 @Component({
   selector: "app-nav-bar",
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink, RouterLinkActive],
   template: `
     <div class="navbar bg-base-100">
       <div class="flex-1">
@@ -12,7 +13,16 @@ import { CommonModule } from "@angular/common";
       </div>
       <div class="flex-none">
         <ul class="menu menu-horizontal px-1">
-          <li><a>Link</a></li>
+          <li>
+            <a routerLink="home" [routerLinkActive]="['link', 'link-active']"
+              >Dashboard</a
+            >
+          </li>
+          <li>
+            <a routerLink="support" [routerLinkActive]="['link', 'link-active']"
+              >Support</a
+            >
+          </li>
           <li>
             <details>
               <summary>Parent</summary>
