@@ -1,0 +1,11 @@
+C:\Users\ITUStudent\class\intro-to-programming\src\Week 1\BankingSolution\Banking.Domain\bin\Debug\net7.0\Banking.Domain.deps.json
+C:\Users\ITUStudent\class\intro-to-programming\src\Week 1\BankingSolution\Banking.Domain\bin\Debug\net7.0\Banking.Domain.dll
+C:\Users\ITUStudent\class\intro-to-programming\src\Week 1\BankingSolution\Banking.Domain\bin\Debug\net7.0\Banking.Domain.pdb
+C:\Users\ITUStudent\class\intro-to-programming\src\Week 1\BankingSolution\Banking.Domain\obj\Debug\net7.0\Banking.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ITUStudent\class\intro-to-programming\src\Week 1\BankingSolution\Banking.Domain\obj\Debug\net7.0\Banking.Domain.AssemblyInfoInputs.cache
+C:\Users\ITUStudent\class\intro-to-programming\src\Week 1\BankingSolution\Banking.Domain\obj\Debug\net7.0\Banking.Domain.AssemblyInfo.cs
+C:\Users\ITUStudent\class\intro-to-programming\src\Week 1\BankingSolution\Banking.Domain\obj\Debug\net7.0\Banking.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ITUStudent\class\intro-to-programming\src\Week 1\BankingSolution\Banking.Domain\obj\Debug\net7.0\Banking.Domain.dll
+C:\Users\ITUStudent\class\intro-to-programming\src\Week 1\BankingSolution\Banking.Domain\obj\Debug\net7.0\refint\Banking.Domain.dll
+C:\Users\ITUStudent\class\intro-to-programming\src\Week 1\BankingSolution\Banking.Domain\obj\Debug\net7.0\Banking.Domain.pdb
+C:\Users\ITUStudent\class\intro-to-programming\src\Week 1\BankingSolution\Banking.Domain\obj\Debug\net7.0\ref\Banking.Domain.dll

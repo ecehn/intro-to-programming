@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "TestingKiosk/1.0.0": {
+        "dependencies": {
+          "Banking.Domain": "1.0.0"
+        },
+        "runtime": {
+          "TestingKiosk.dll": {}
+        }
+      },
+      "Banking.Domain/1.0.0": {
+        "runtime": {
+          "Banking.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestingKiosk/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Banking.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
