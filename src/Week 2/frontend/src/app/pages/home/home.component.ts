@@ -5,22 +5,22 @@ import { HeadingComponent } from "../../components/heading/heading.component";
 @Component({
   standalone: true,
   template: `
-    <app-heading />
+   <app-heading />
     <p *ngIf="showMessage() === true">This is our dashboard for the app.</p>
-    <button (click)="toggleMessage()" type="button" class="btn btn-secondary">
-      Toggle Message
-    </button>
+    <button (click)="toggleMessage()" type="button" class="btn btn-secondary">Toggle Message</button>
     <ul>
-      <li *ngFor="let shoppingItem of shoppingList()">{{ shoppingItem }}</li>
+      <li *ngFor="let shoppingItem of shoppingList()">{{shoppingItem}}</li>
     </ul>
   `,
   styles: [],
-  imports: [HeadingComponent, CommonModule],
+  imports: [HeadingComponent, CommonModule]
 })
 export class HomeComponent {
-  showMessage = signal(true);
 
-  shoppingList = signal(["Bread", "Beer", "Shampoo"]);
+
+  showMessage = signal(true)
+
+  shoppingList = signal(['Bread', 'Beer', 'Shampoo']);
 
   toggleMessage() {
     this.showMessage.set(!this.showMessage());
