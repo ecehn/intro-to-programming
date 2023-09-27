@@ -15,7 +15,9 @@ import { TodoSummaryComponent } from "../todo-summary.component";
       <div class="flex-none">
         <ul class="menu menu-horizontal px-1">
           <li>
-            <a routerLink="dashboard" [routerLinkActive]="['link', 'link-active']"
+            <a
+              routerLink="dashboard"
+              [routerLinkActive]="['link', 'link-active']"
               >Dashboard</a
             >
           </li>
@@ -29,7 +31,8 @@ import { TodoSummaryComponent } from "../todo-summary.component";
               <summary>Demos</summary>
               <ul class="p-2 bg-base-100">
                 <li><a routerLink="todos">Todos</a></li>
-                <li><a>Link 2</a></li>
+                <li><a routerLink="admin">Admin Stuff</a></li>
+                <li><a routerLink="counter">Counter</a></li>
               </ul>
             </details>
           </li>
@@ -38,6 +41,6 @@ import { TodoSummaryComponent } from "../todo-summary.component";
     </div>
   `,
   styles: [],
-  imports: [CommonModule, RouterLink, RouterLinkActive, TodoSummaryComponent]
+  imports: [CommonModule, RouterLink, RouterLinkActive, TodoSummaryComponent],
 })
-export class NavBarComponent { }
+export class NavBarComponent {}
